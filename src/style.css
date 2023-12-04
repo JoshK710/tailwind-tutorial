@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.completed {
+  text-decoration: line-through;
+}
+
+.custom {
+  @apply mb-2 mx-auto justify-between bg-white rounded-lg p-3;
+}
+
